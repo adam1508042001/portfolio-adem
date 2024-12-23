@@ -50,17 +50,17 @@ import { ref } from 'vue';
 const Skills =ref([
     {
         id:1,
-        name:'HTmL & CSS',
-        width:'40%'
+        name:'HTmL & CSS tailwind',
+        width:'70%'
     },
     {
         id:2,
-        name:'php',
-        width:'20%'
+        name:'php laravel',
+        width:'60%'
     },
     {
         id:3,
-        name:'JavaScript (vue react express)',
+        name:'JavaScript (node, vue, react, express)',
         width:'60%'
     },
     {
@@ -84,14 +84,14 @@ const Experinces =ref([
     },
     {
         id:2,
-        role:'DVELOPPEUR FRONT END (emailing)',
+        role:'développeur FRONT END (emailing)',
         company:'FARMAPRO',
         date:'AOUT 2024'
     },
     {
         id:3,
-        role:'DEVELOPPEUR BACKEND JAVA',
-        company:'MONOSTOCK',
+        role:'développeur backend java',
+        company:'MONSTOCK',
         date:'September 2024'
     },
 ])

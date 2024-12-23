@@ -49,10 +49,10 @@
 
         <!-- ########################################################### -->
         <!-- Formulaire de contact -->
-        <div style="background: #111a3e; width: 100%; height: 100%; border-radius: 20px; overflow: hidden; border: 1px solid #111a3e; backdrop-filter: blur(9px); -webkit-backdrop-filter: blur(9px);">
+        <div style="background: #111a3e; width: 100%; height: 100%; border-radius: 20px; overflow: hidden; border: 1px solid #111a3e; backdrop-filter: blur(9px); -webkit-backdrop-filter: blur(9px); ">
           <form
            @submit="check"
-            class="flex flex-col p-2"
+            class="flex flex-col p-8"
              data-aos="zoom-in-up"
              >
 
@@ -93,7 +93,7 @@
 
 
             <!--  le type submit  -->
-            <button type="submit" class="z-1 w-full px-6 py-3 rounded-full text-white bg-primary border-2 border-transparent">Envoyer le message</button>
+            <button type="submit" class="z-1 w-full px-6 py-3 rounded-full text-white bg-primary border-2 border-transparent ">Envoyer le message</button>
           </form>
         </div>
       </div>

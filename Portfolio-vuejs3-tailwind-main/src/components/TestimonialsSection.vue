@@ -1,12 +1,12 @@
 <template >
     <section class="text-white mt-20" id="testimonials" data-aos="zoom-in">
-        <h2 class="text-4xl font-bold text-white text-left mb-4 px-4 xl:pl-16">Recommandations </h2>
+        <h2 class="text-4xl  font-bold text-white text-left mb-5 px-4 xl:pl-16">Recommandations </h2>
         <div class="px-4 xl:px-16">
             <Carousel v-bind="settings" :breakpoints="breakpoints" >
                 <Slide v-for="element in testimonials" :key="element.id">
                     <div class="carousel__item p-4">
                         <div class="w-full mx-auto bg-[#111a3e] shadow-lg border border-[#1f1641] p-5 text-white font-light mb-6">
-                            <div class="w-full flex mb-4 items-center">
+                            <div class="w-full flex mb-4 items-center ">
                                 <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                     <img :src="element.image" alt="testimonial image" loading="lazy">
                                 </div>
@@ -55,7 +55,7 @@ const testimonials=ref([
     {
         id:1,
         fullName:'DEBUREAU AUGUSTIN',
-        image:'https://media.licdn.com/dms/image/v2/D4E35AQFYcDEx3pmFqg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1713170530002?e=1733835600&v=beta&t=3torZGOU0Z2OwlUqWHoBuT8F81v1ZRhimBo9HnjFUgs',
+        image:'https://media.licdn.com/dms/image/v2/D4E35AQFYcDEx3pmFqg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713170530002?e=1735563600&v=beta&t=5FJBpxafrcu0XTIEnAoO-dQRE4IenyPC4Yt_imCPRD0',
         comment:'J\'ai eu le plaisir de superviser Adam pendant son stage chez RESEAU EXPRESS. Il a développé une page web impressionnante en utilisant HTML, CSS Tailwind et JavaScript, démontrant un excellent sens du détail et une grande maîtrise des technologies web. Son enthousiasme et sa capacité à apprendre rapidement ont grandement contribué au succès de notre projet.'
     },
 ])
