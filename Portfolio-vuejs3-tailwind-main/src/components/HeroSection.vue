@@ -32,7 +32,7 @@
                                 </svg>
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="https://media.licdn.com/dms/document/media/v2/D4E2DAQH4v59MGojGZA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1733481463416?e=1735776000&v=beta&t=ZQyaITtV0-WftBWt1b-T5-JF_aGe9Cmn9HXqLQq4Vps"    class="cv pl-2 text-primary">Visualiser et télécharger le cv</a>
+                            <a href="../assets/resume.pdf" download='afroune-cv.pdf'   class="cv pl-2 text-primary">Visualiser et télécharger le cv</a>
 
    
                         </div>
