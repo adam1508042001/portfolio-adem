@@ -99,12 +99,12 @@
       </div>
     
       <!-- Notification de succès -->
-      <div v-if="formNotification" class="fixed bg-green-600 bg-opacity-60 text-white px-4 py-2 rounded shadow-md transition-opacity duration-300 flex items-center justify-center" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div v-if="formNotification" class="fixed bottom-4 right-[100px] bg-green-600 bg-opacity-60 text-white px-4 py-2 rounded shadow-md transition-opacity duration-300 flex items-center justify-center">
         Formulaire envoyé avec succès!
       </div>
   
       <!-- Notification de copie -->
-      <div v-if="numberNotification" class="fixed bg-green-600 bg-opacity-60 text-white px-4 py-2 rounded shadow-md transition-opacity duration-300 flex items-center justify-center" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div v-if="numberNotification"  class="fixed bottom-4 right-[100px] bg-green-600 bg-opacity-60 text-white px-4 py-2 rounded shadow-md transition-opacity duration-300 flex items-center justify-center">
         Numéro copié dans le presse-papiers!
       </div>
     </section>
