@@ -21,18 +21,10 @@
                         <button class=" border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <div class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
                             <div class="svg-container">
-                                <svg class="download-icon" width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                                    <path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke="#f59e0b"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                    />
-                                    <path d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129
-                                    20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213
-                                    20.1213C16.6839 19.5587 17 18.7956 17 18V17"
-                                    stroke="#f59e0b" stroke-width="2" stroke-linecap="round" />
-                                </svg>
+                               
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="" download='cv.pdf'  class="cv pl-2 text-primary">Télécharger le resume</a>
+                            <a href="https://www.linkedin.com/in/mohamed-adam-afroune/overlay/1735058541962/single-media-viewer/?profileId=ACoAADQNJCABcZZSeLEky6S_MhmAbaO6PeWD-j8" target="_blank" class="cv pl-2 text-primary">Visualiser le CV sur Linkedin</a>
 
    
                         </div>
