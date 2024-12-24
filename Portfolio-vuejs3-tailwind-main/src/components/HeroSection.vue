@@ -32,7 +32,7 @@
                                 </svg>
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="../assets/resume.pdf" download='afroune-cv.pdf'   class="cv pl-2 text-primary">Visualiser et télécharger le cv</a>
+                            <a href="" download='cv.pdf'  class="cv pl-2 text-primary">Télécharger le resume</a>
 
    
                         </div>
