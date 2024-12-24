@@ -1,10 +1,7 @@
 <template>
   <div class="bg-[#111827] min-h-screen">
 
-    <div>
-      <router-view/>   
-    </div>
-    <!-- Wrap components in Suspense to handle loading -->
+  
      <Suspense>
       <template #default>
         
