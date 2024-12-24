@@ -62,8 +62,8 @@ const Projects = ref([
         title: 'Application web de gestion de taches',
         description: 'Une application web pour gérer ses taches de quotidien',
         technologies: ['React.js'],
-        gitURL: 'https://github.com/adam1508042001/task-management-project',
-        webURL: ''
+        gitURL: '',
+        webURL: 'https://github.com/adam1508042001/task-management-project'
     },
     {
         id: 2,
